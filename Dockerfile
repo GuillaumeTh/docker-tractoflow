@@ -29,9 +29,9 @@ RUN apt -y install unzip
 RUN apt -y install python3.7-tk
 
 WORKDIR /
-RUN wget https://github.com/scilus/scilpy/archive/638769d.zip
-RUN unzip 638769d.zip
-RUN mv scilpy-638769d scilpy
+RUN wget https://github.com/scilus/scilpy/archive/24f8aaf.zip
+RUN unzip 24f8aaf.zip
+RUN mv scilpy-24f8aaf scilpy
 
 WORKDIR /scilpy
 RUN pip3 install bz2file==0.98
